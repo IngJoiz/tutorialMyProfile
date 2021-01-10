@@ -8,8 +8,7 @@ export const ToolbarStyled = styled(Toolbar)`
   & img {
     height: 70px
   }
-  
-`;
+  `;
 
 export const DivListMobile = styled('div')`
   text-align: center;

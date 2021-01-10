@@ -1,5 +1,16 @@
 {
+  "header": {
+    "about": "Sobre mi",
+    "work": "Exp. trabajo",
+    "hobby": "Pasatiempo",
+    "contact": "Contacto"
+  },
   "home": {
-    "subTitle": "DESARROLLADOR | FRONT END | BACK END"
+    "subTitle": "DESARROLLADOR | FRONT END | BACK END",
+    "title": "Jonathan Vega"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "description": "Ingeniero de Sistemas radicado en Canada especializado en aplicaciones Web React y Asp.Net, en mi tiempo libre practico la fotografia y en el ski alpin."
   }
 }

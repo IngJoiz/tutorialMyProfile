@@ -1,22 +1,21 @@
 import React from 'react';
 import { Container } from './styled';
-// import { IconButton, Typography } from '@material-ui/core';
-// import Grid from '@material-ui/core/Grid/Grid';
-// import CircularImage from '../../component/circularImage';
-// import InstagramIcon from '@material-ui/icons/Instagram';
-// import GitHubIcon from '@material-ui/icons/GitHub';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
-// import YouTubeIcon from '@material-ui/icons/YouTube';
-// import { useTranslation } from 'react-i18next';
+import { IconButton, Typography } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid/Grid';
+import CircularImage from '../../component/circularImage';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
-  // const { t } = useTranslation();
-  // const onClickIconButton = (url: string) => window.open(url, '_blank');
+  const { t } = useTranslation();
+  const onClickIconButton = (url: string) => window.open(url, '_blank');
 
   return (
     <Container>
-      About me
-      {/* <Grid container>
+      <Grid container>
         <Grid item lg={4} md={4} sm={5} xs={12}>
           <CircularImage image='/images/profile.jpg' size='300px' />
         </Grid>
@@ -67,7 +66,7 @@ const About = () => {
             </IconButton>
           </Grid>
         </Grid>
-      </Grid> */}
+      </Grid>
     </Container>
   );
 };

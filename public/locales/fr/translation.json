@@ -1,5 +1,16 @@
 {
+  "header": {
+    "about": "À propos de moi",
+    "work": "L'expérience Prof.",
+    "hobby": "Passe-Temps",
+    "contact": "Contact"
+  },
   "home": {
-    "subTitle": "DEVELOPPEUR | FRONT END | BACK END"
+    "subTitle": "DEVELOPPEUR | FRONT END | BACK END",
+    "title": "Jonathan Vega"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Ingénieur système spécialisé dans les applications Web React et Asp.Net, Dans mon temps libre, je pratique la photographie et le ski alpinisme."
   }
 }

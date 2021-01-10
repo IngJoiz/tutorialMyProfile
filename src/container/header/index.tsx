@@ -82,7 +82,7 @@ const Header = () => {
       <ShowOnScroll>
         <AppBar position='fixed'>
           <ToolbarStyled>
-              <img src='images/5.png' alt='logo' />
+              <img src='images/7.png' alt='logo' />
             {isMobile ? (
               <div>
                 <IconButtonMenu

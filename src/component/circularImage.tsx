@@ -1,27 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
 
 interface ICircularImageProp {
   image: string;
   size: string;
-  title?: string;
-  sizeTitle?: 'sm' | 'md' | 'lg';
-  hasBorder?: boolean;
 }
 
-const CircularImage = ({ title, image, size, sizeTitle, hasBorder }: ICircularImageProp) => {
-  let styledImag = { borderRadius: '50%', border: '#c2d6d6 5px solid' };
-  styledImag = hasBorder ? styledImag : { ...styledImag, border: '' };
-    
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <img src={image} alt='Avatar' style={styledImag} width={size} height={size} />
-      <br />
-      {sizeTitle === undefined && <h3 style={{ textTransform: 'capitalize' }}>{title}</h3>}
-      {sizeTitle === 'lg' && <h1 style={{ textTransform: 'capitalize' }}>{title}</h1>}
-      {sizeTitle === 'md' && <h3 style={{ textTransform: 'capitalize' }}>{title}</h3>}
-      {sizeTitle === 'sm' && <h5 style={{ textTransform: 'capitalize' }}>{title}</h5>}
-    </div>
-  );
-};
+const DivStyled = styled('div')`
+  text-align: center;
+`;
+
+const ImgStyled = styled('img')`
+  border-radius: 50%;
+`;
+
+const CircularImage = ({ image, size }: ICircularImageProp) => (
+  <DivStyled>
+    <ImgStyled src={image} alt='Avatar' width={size} height={size} />
+  </DivStyled>
+);
 
 export default CircularImage;

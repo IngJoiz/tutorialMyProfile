@@ -1,7 +1,11 @@
 import { Slide } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 
-const ShowOnScroll = ({ children }: any) => {
+interface IShowOnScrollProps {
+  children: React.ReactElement;
+}
+
+const ShowOnScroll = ({ children }: IShowOnScrollProps) => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
