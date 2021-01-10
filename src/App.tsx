@@ -13,6 +13,7 @@ import { CssBaseline } from '@material-ui/core';
 import { useStateWithLocalStorage } from './hooks/useStateWithLocalStorage';
 import Home from './pages/Home';
 import Thanks from './pages/Thanks';
+import Header from './container/header';
 
 function App() {
   const [useDarkTheme, setUseDarkTheme] = useStateWithLocalStorage(
@@ -30,6 +31,7 @@ function App() {
         <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
           <CssBaseline />
           <Suspense fallback='loading'>
+          <Header />
             <Switch>
               <Route
                 extact
