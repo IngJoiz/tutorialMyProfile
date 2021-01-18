@@ -13,6 +13,9 @@ En este proyecto se encuentran creada una branch por cada video:
 | :---: | :---: | 
 | Video 'Configuracion Tema y Multi Lenguaje' | https://github.com/IngJoiz/tutorialMyProfile/tree/video_1  | 
 | Video 'Información Básica y Sobre mi'  | https://github.com/IngJoiz/tutorialMyProfile/tree/video_2  | 
+| Video 'Experiencia de Trabajo y Pasatiempos'  | https://github.com/IngJoiz/tutorialMyProfile/tree/video_3  | 
+
+
 
 
 
