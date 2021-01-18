@@ -11,7 +11,7 @@ const DivStyled = styled('div')`
 const Home = () => {
   return (
     <Container component={Paper}>
-       <div id='information'>
+      <div id='information'>
         <BasicInformation />
       </div>
       <DivStyled id='about' data-aos='slide-up'>

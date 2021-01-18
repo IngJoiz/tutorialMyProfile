@@ -1,8 +1,7 @@
 import React from 'react';
 import ArrowAnimated from '../../component/arrowAnimated';
 import { Typography } from '@material-ui/core';
-import ContainerVerticalAling from '../../component/verticalCenter';
-import { ContainerArrows } from './styled';
+import ContainerVerticalAling from '../../component/verticalCenter'; import { ContainerArrows } from './styled';
 import { RouteNavigation } from '../../constants/routeNavigation';
 import { useTranslation } from 'react-i18next';
 import { useHover } from '../../hooks/useHover';
@@ -21,7 +20,7 @@ const BasicInformation = () => {
           )}
         </div>
         <Typography variant='h2' ref={hoverRef}>
-           {t('home.title')}
+          {t('home.title')}
         </Typography>
         <Typography variant='h6'>{t('home.subTitle')}</Typography>
       </ContainerVerticalAling>
