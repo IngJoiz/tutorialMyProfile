@@ -12,5 +12,61 @@
   "about": {
     "title": "About Me",
     "description": "Systems Engineer based in Canada specialized in Web React and Asp.Net applications, in my free time I practice photography and ski alpin."
+  },
+  "workExp": {
+    "title": "Work Experience",
+    "downloadCV": "",
+    "company": {
+      "n1": {
+        "name": "CGI",
+        "img": "images/company/cgi.jpg",
+        "post": "Senior Advisor",
+        "dateI": "March 2020",
+        "dateF": "Actual",
+        "description": "Currently I am as a senior consultant, developing and designing applications in React in FrontEnd and the Back End development Api's with Asp.net Core and as a SQL database"
+      },
+      "n2": {
+        "name": "Systematix",
+        "img": "",
+        "post": "Advisor",
+        "dateI": "August 2018",
+        "dateF": "February 2020",
+        "description": "Designed and developed responsive web applications using React and RESTful API with SQL. One of the tools developed was focused on performing the analysis for the approval or denial of life insurance"
+      },
+      "n3": {
+        "name": "Evolution IT",
+        "img": "images/company/Evolution.jpg",
+        "post": "Senior Developer",
+        "dateI": "Diciembre 2017",
+        "dateF": "Julio 2018",
+        "description": "In this project developing the EpX application. With this app, businesses can manage all their documentation online, allowing them to get closer to their 'paperless' goal. EpX complies with the requirements and regulations of the National General Archives of Colombia, as well as with the ISO Content Management Standards."
+      },
+      "n4": {
+        "name": "Periferia",
+        "img": "images/company/periferia.png",
+        "post": "Senior Developer",
+        "dateI": "July 2014",
+        "dateF": "November 2017",
+        "description": "Personnel management in Aguile Scrum methodology and Development of applications on demand for Falabella de Colombia client in .NET C # with SCRUM methodology, management of MVC 5, Entity Framework 6, WorkFlow, LinQ, Telerik Kendo Ui components, html5, CSS3 and javascript, SQL server 2012 and reporting services."
+      },
+      "n5": {
+        "name": "Accenture",
+        "img": "images/company/accenture.png",
+        "post": "Semi Senior Developer",
+        "dateI": "Junio 2013",
+        "dateF": "Junio 2014",
+        "description": "In charge of estimating and projections of new projects and modifications, carrying out the documentation, Development in platform .net framework C #, Handling of WCF, MVC3, ASP.NET technologies, Windows Forms workflow handling of SQL 2008 database (trigger, stored procedure), ETL, Reporting Services, Oralce with knowledge of design patterns."
+      },
+      "n6": {
+        "name": "Verytel",
+        "img": "",
+        "post": "Junior Developer",
+        "dateI": "September 2011",
+        "dateF": "June 2013",
+        "description": "Work in an application developed on the C # .net framework platform, it is a service-oriented client server application, handle technologies such as WCF, MVC3, SQL 2008 database management workflow (trigger, stored procedure)."
+      }
+    }
+  },  "hobbys": {
+    "title":"Hobbys"
   }
 }

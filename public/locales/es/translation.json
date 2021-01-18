@@ -12,5 +12,63 @@
   "about": {
     "title": "Sobre mi",
     "description": "Ingeniero de Sistemas radicado en Canada especializado en aplicaciones Web React y Asp.Net, en mi tiempo libre practico la fotografia y en el ski alpin."
+  },
+  "workExp": {
+    "title": "Experiencia de Trabajo",
+    "downloadCV": "Descargar HV",
+    "company": {
+      "n1": {
+        "name": "CGI",
+        "img": "images/company/cgi.jpg",
+        "post": "Consultor Senior",
+        "dateI": "Marzo 2020",
+        "dateF": "Actual",
+        "description": "Actualmente me encuentro como consultor senior, desarrollando y diseñando aplicaciones en React en FrontEnd y el Back End desarrollo Api's con Asp.net Core y como base de datos SQL "
+      },
+      "n2": {
+        "name": "Systematix",
+        "img": "images/company/systematix.png",
+        "post": "Consultor",
+        "dateI": "Agosto 2018",
+        "dateF": "Febrero 2020",
+        "description": "Diseñé y desarrollé aplicaciones web receptivas utilizando React y API RESTful con SQL. Una des las herramientas desarrolladas estaba enfocada en realizar el analisis para la aprobacion o la negación de los seguros de vida"
+      },
+      "n3": {
+        "name": "Evolution IT",
+        "img": "images/company/Evolution.jpg",
+        "post": "Desarrollador Senior",
+        "dateI": "Diciembre 2017",
+        "dateF": "Julio 2018",
+        "description": "En este proyecto desarrollando la aplicación EpX. Con esta aplicación, las empresas pueden administrar toda su documentación en línea, lo que les permite acercarse a su objetivo 'sin papel'. EpX cumple con los requisitos y regulaciones de los Archivos Generales Nacionales de Colombia, así como con las Normas de Gestión de Contenido ISO."
+      },
+      "n4": {
+        "name": "Periferia",
+        "img": "images/company/periferia.png",
+        "post": "Lider Técnico",
+        "dateI": "Julio 2014",
+        "dateF": "Noviembre 2017",
+        "description": "Manejo de personal en metodología Aguile Scrum y Desarrollo de aplicaciones a demanda para el cliente Falabella de Colombia en .NET C# con metodologia SCRUM, manejo de MVC 5, Entity Framework 6, WorkFlow,LinQ, componentes de telerik Kendo Ui, html5, CSS3 y javascript, SQL server 2012 y reporting services."
+      },
+      "n5": {
+        "name": "Accenture",
+        "img": "images/company/accenture.png",
+        "post": "Desarrollador Semi Senior",
+        "dateI": "Junio 2013",
+        "dateF": "Junio 2014",
+        "description": " Encargado de realizar estimaciónes y proyecciones de proyectos nuevos y modificaciónes, realización de la documentación, Desarrollo en plataforma .net framework C#, Manejo de tegnologias WCF, MVC3, ASP.NET, Windows Forms workflow manejo de base de datos SQL 2008 (trigger, stored procedure), ETL, Reporting Services, Oralce con conocimiento en patrones de diseño. "
+      },
+      "n6": {
+        "name": "Verytel",
+        "img": "",
+        "post": "Desarrollador Junior",
+        "dateI": "Septiembre 2011",
+        "dateF": "Junio 2013",
+        "description": "Trabaje en una aplicación desarrollada en la plataforma .net framework C#, es una aplicación cliente servidor orientado a servicios, maneje tecnologías como WCF, MVC3, workflow manejo de base de datos SQL 2008 (trigger, stored procedure). "
+      }
+    }
+  },
+  "hobbys": {
+    "title": "Pasatiempos",
+    "description": "Dentro de mis pasatiempos esta el practicar Ski y hacer videos en youtube"
   }
 }

@@ -12,5 +12,62 @@
   "about": {
     "title": "À propos de moi",
     "description": "Ingénieur système spécialisé dans les applications Web React et Asp.Net, Dans mon temps libre, je pratique la photographie et le ski alpinisme."
+  },
+  "workExp": {
+    "title": "L'expérience professionnelle",
+    "downloadCV": "Télécharger CV",
+    "company": {
+      "n1": {
+        "name": "CGI",
+        "img": "images/company/cgi.jpg",
+        "post": "Consultant Senior",
+        "dateI": "Mars 2020",
+        "dateF": "",
+        "description": "Actuellement, je suis consultant senior, développant des applications React dans FrontEnd et les API Back End avec Asp.net Core et en tant que base de données SQL"
+      },
+      "n2": {
+        "name": "Systematix",
+        "img": "images/company/systematix.png",
+        "post": "Consultant",
+        "dateI": "Août 2018",
+        "dateF": "Février 2020",
+        "description": "j'ai développé applications Web réactives pour les outils utilisant React et l'API RESTful avec SQL. L'un des outils développés était fait pour la réalisation de l'analyse d'approbation ou de refus d'assurance-vie"
+      },
+      "n3": {
+        "name": "Evolution IT",
+        "img": "images/company/Evolution.jpg",
+        "post": "Developpeur Sénior",
+        "dateI": "Décembre 2017",
+        "dateF": "Juillet 2018",
+        "description": "Dans ce projet j'ai travaillé dans l'application EpX. Avec cette application, les entreprises peuvent gérer toute leur documentation en ligne, ce qui leur permet de se rapprocher de leur objectif «sans papier». EpX est conforme aux exigences et réglementations des Archives générales nationales de Colombie, ainsi qu'aux normes de gestion de contenu ISO."
+      },
+      "n4": {
+        "name": "Periferia",
+        "img": "images/company/periferia.png",
+        "post": "Developpeur Sénior",
+        "dateI": "Jillet 2014",
+        "dateF": "Novembre 2017",
+        "description": "Gestion du personnel dans la méthodologie Aguile Scrum et Développement d'applications à la demande pour le client Falabella de Colombia en .NET C # avec la méthodologie SCRUM, gestion de MVC 5, Entity Framework 6, WorkFlow, LinQ, composants Telerik Kendo Ui, html5, CSS3 et javascript, SQL Server 2012 et services de reporting."
+      },
+      "n5": {
+        "name": "Accenture",
+        "img": "images/company/accenture.png",
+        "post": "Developpeur Semi Sénior",
+        "dateI": "Juin 2013",
+        "dateF": "Juin 2014",
+        "description": "En charge de l'estimation et des projections de nouveaux projets, réalisation de documentation, Développement en plateforme .net framework C #, Gestion des technologies WCF, MVC3, ASP.NET, Gestion des workflows Windows Forms de la base de données SQL 2008 (trigger, procédure stockée) , ETL, Reporting Services, Oralce avec une connaissance des modèles de conception."
+      },
+      "n6": {
+        "name": " Verytel",
+        "img": "",
+        "post": "Developpeur Junior",
+        "dateI": "Septembre 2011",
+        "dateF": "Juin 2013",
+        "description": "J'ai travaillé dans une application développée sur la plate-forme de framework C # .net, c'est une application client-serveur orientée services, gère des technologies telles que WCF, MVC3, workflow de gestion de base de données SQL 2008 (déclencheur, procédure stockée)."
+      }
+    }
+  },
+  "hobbys": {
+    "title": "Passe-Temps"
   }
 }
