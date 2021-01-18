@@ -38,13 +38,6 @@ const Configuration = ({
       >
         Es
       </FabStyled>
-      <FabStyled
-        size='medium'
-        color='primary'
-        onClick={() => onChangeLanguage(Language.PR)}
-      >
-        Pr
-      </FabStyled>
       {isDarkTheme && (
         <FabStyled size='medium' onClick={() => onChangeTheme(false)}>
           <Brightness4Icon />

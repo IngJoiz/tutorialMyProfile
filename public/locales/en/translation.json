@@ -1,5 +1,16 @@
 {
-  "app":{
-    "text1": "hello"
+  "header": {
+    "about": "About Me",
+    "work": "Work Experience",
+    "hobby": "Hobbys",
+    "contact": "Contact"
+  },
+  "home": {
+    "subTitle": "DEVELOPER | FRONT END | BACK END",
+    "title": "Jonathan Vega"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Systems Engineer based in Canada specialized in Web React and Asp.Net applications, in my free time I practice photography and ski alpin."
   }
 }
